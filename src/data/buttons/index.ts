@@ -1,5 +1,6 @@
 import {MessageButton} from "discord.js";
 
+
 export function functionCreateButton(label: string, id: string, style: any, emoji: string) {
     return new MessageButton({
         type: "BUTTON",
